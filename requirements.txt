@@ -1,8 +1,17 @@
-langchain 
-langchain-community 
-langchain-experimental 
-langchain-openai 
-langchain-neo4j
-langchain-text-splitters 
-neo4j 
-wikipedia
+# LangChain v1 (core 1.x)
+langchain==1.2.0
+langchain-core==1.2.2
+langchain-classic==1.0.0
+
+# Integrations you actually need
+langchain-community==0.4.0
+langchain-text-splitters==1.0.0
+langchain-experimental==0.4.1
+langchain-neo4j==0.6.0
+langchain-ollama==1.0.1
+
+# Neo4j + utils
+neo4j==5.25.0
+wikipedia==1.4.0
+python-dotenv==1.0.1
+pydantic<3

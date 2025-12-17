@@ -1,2 +1,5 @@
 .env
-docker-compose.yml
+.venv
+neo4j/data/
+__pycache__/
+.ipynb_checkpoints/
